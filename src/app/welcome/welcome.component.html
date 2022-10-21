@@ -1,0 +1,50 @@
+<div class="welcome">
+    <div class="container py-1 inner-welcome">
+        <h1 class="display-5 fw-bold">¡Bienvenido a la trivia del Mundial 2022!</h1>
+        <p class="col-md-8 fs-4">Esta trivia consiste de un total de 5 preguntas </p>
+        <h4>Reglas:</h4>
+        <ol>
+            <li>Respuestas correctas suman 1 punto</li>
+            <li>Respuestas incorrectas suman 0 puntos</li>
+            <li>Usted tiene 60 segundos para contestar cada respuesta</li>
+            <li>Si refresca la página de las preguntas las mismas comienzan nuevamente</li>
+            <li>Si hace click en "TRIVIA MUNDIAL..." regresa a esta pantalla</li>
+        </ol>
+        <h1 style="font-family: cursive;text-align:center"> <b>¡Mucha suerte!</b></h1>
+      
+        <div class="name col-md-6 my-3">
+            <label for="" class="p-2 mb-2 bg-danger text-white">Ingrese su nombre y apriete ENTER para poder
+                continuar!</label>
+            <!-- In Angular #name indicates that we will save in Typescript at this.name = localStorage.getItem("name")!; the input in the name variable  -->
+            <!-- When the enter key is pressed we pass the value of name to the function verificarNombre -->
+            <input #name type="text" class="form-control" placeholder="Lionel Messi"
+                (keydown.enter)="verificaNombre(name.value)">
+        </div>
+        <!-- When we press the button we go to /question as indicated in routerLink -->
+        <!-- When we press the button we call the startQuiz() method defined in welcome.component.ts -->
+        <!-- when [disabled] "true" the button is not active, the state depends on the vality of the name  -->
+        <button class="btn btn-primary btn-lg " routerLink="/question" (click)="startQuiz()"
+            [disabled]="nombreValido">Comenzar ! </button>
+
+        <span>
+            <button style="margin-left: 10em" type="button" class="btn btn-primary btn-lg " data-bs-toggle="collapse"
+                data-bs-target="#demo">Acerca de</button>
+            <div id="demo" class="collapse">
+                <br>
+                <h5>
+                    Este es el mini proyecto final del curso de <i> re insercion laboral al mundo de IT </i> dado por <b>SenioriTty</b> <br>
+                    El grupo que trabajó en el mismo fue conformado por: <br>
+                    <ul>
+                        <li>Natalia Vaccarezza: Quality</li>
+                        <li>Alfredo Pinkus: Front End </li>
+                        <li>Alejandro Restucia: Back End</li>
+                        <li>Mauricio Torrea: Scrum</li>
+                    </ul>
+                    <p>Para mas informacion acerca de SenioriTty: &nbsp;<a href="https://sites.google.com/senioritty.com/senioritty/inicio"
+                            target="_blank" rel="noopener noreferrer">SenioriTty - Your Next Big Step</a></p>
+                </h5>
+            </div>
+        </span>
+
+    </div>
+</div>

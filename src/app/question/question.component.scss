@@ -1,0 +1,39 @@
+.card {
+    max-width: 800px;
+    max-height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right:auto;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    background-color: #fec89a;
+    font-weight: bold;
+}
+
+.marquee{
+    padding: 20px;
+}
+
+li {
+    list-style-type: none;
+    cursor: pointer;
+    margin: 0px 0;
+}
+
+li .card:hover {
+    border: 2px solid black;
+    background-color:maroon ;
+    font-weight: bold;
+    color: white;
+}
+
+ol {
+    padding: 0;
+}
+
+.preguntas{
+    background-image: url("https://cdn.britannica.com/95/189695-050-889D438E/Nighttime-skyline-Doha-Qatar.jpg");
+    height: 100vh;
+}

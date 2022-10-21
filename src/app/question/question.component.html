@@ -1,0 +1,84 @@
+<div class="preguntas">
+    <div class="container py-5">
+        <div class="card">
+            <ng-container *ngIf="!isQuizCompleted">
+                <div class="d-flex justify-content-between marquee">
+                    <div class="image">
+                        <img src="https://i.pinimg.com/originals/f3/48/49/f34849cdb1fd97dd6feb285115ecfbb3.jpg"
+                            width="120" alt="logo">
+                    </div>
+                    <div class="quiz-header">
+                        <h4 style="font-family: cursive;">Trivia Mundial Qatar 2022!</h4>
+                        <h5><span style="font-style: italic;">Bienvenido {{name}}!</span></h5>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-around py-3">
+                    <div class="score">
+                        <h5>Puntos: {{points}}</h5>
+                    </div>
+                    <div class="question-remain">
+                        <h5><span style="font-style: italic;"> Pregunta {{currentQuestion + 1}} de 5</span></h5>
+                    </div>
+                    <div class="timer">
+                        <h5>Seg: {{counter}}<span class="fa fa-spinner fa-pulse"></span></h5>
+                    </div>
+                </div>
+
+                <div class="progress mb-3" *ngIf="currentQuestion < 5">
+                    <div class="progress-bar progress-bar-striped bg-danger" role="progressbar"
+                        [ngStyle]="{'width':progress+'%'}" aria-valuemin="0" aria-valuemax="100">
+                    </div>
+                </div>
+
+                <div class="question">
+                    <div class="card">
+                        <!-- En question.component.ts tengo que generar un vector que vaya modificando el valor de currentQustion para que se una valor diferente -->
+                        <!-- cada vez que se busca una de las 5 preguntas.  El valor debe ir de 0 hasta el numero de preguntas   -->
+                        <h3>{{questionList[questionNumber[currentQuestion]]?.textoPregunta }}</h3>
+                    </div>
+                </div>
+
+                <div class="options">
+                    <div class="card">
+                        <ol *ngFor="let option of questionList[questionNumber[currentQuestion]]?.respuestaPorId  ">
+                            <li (click)="answer(currentQuestion + 1,option)">
+                                <div class="card">
+                                    <!-- In each pss of the loop option is replaced by: questionList[currentQuestion].respuestaPorId -->
+                                    {{option.textoRespuesta }}
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-around">
+                    <!-- If we are on question zero we will disable the next button -->
+                    <!-- <button [disabled]="currentQuestion===0" class="btn" (click)="previousQuestion()"><i
+                        class="fa text-primary fa-chevron-left fa-3x" aria-hidden="true"></i></button> -->
+                    <button class="btn" (click)="resetQuiz()"><i class="fa fa-refresh text-primary fa-3x"
+                            aria-hidden="true"></i></button>
+                    <button [disabled]="currentQuestion===questionList.length" class="btn"
+                        (click)="nextQuestion()"><i class="fa text-primary fa-chevron-right fa-3x"
+                            aria-hidden="true"></i></button>
+                </div>
+            </ng-container>
+
+            <ng-container *ngIf="isQuizCompleted">
+                <div class="row d-flex justify-content-between marquee">
+                    <img style="width: 50%;" class="img-fluid col-sm-12 mx-auto"
+                        src="https://image.shutterstock.com/image-vector/congratulations-paper-banner-color-confetti-260nw-401555809.jpg"
+                        alt="">
+                    <div class="result text-center col-md-6 col-sm-12">
+                        <h3>Felicitaciones {{name}}!<br> Has completado la Trivia <br>El resultado es:</h3>
+                        <p></p>
+                        <h5>Total de Preguntas: {{numberQuestionTrivia}}</h5>
+                        <h5>Respuestas correctas: {{correctAnswer}}</h5>
+                        <h5>Respuestas erroneas: {{inCorrectAnswer}}</h5>
+                        <h5>Respuestas no contestadas: {{notAnsweredQuestions}}</h5>
+                        <h4 class="text-danger">Tu puntaje es: {{points}} Puntos</h4>
+                    </div>
+                </div>
+            </ng-container>
+        </div>
+    </div>
+</div>
