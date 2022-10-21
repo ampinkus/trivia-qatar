@@ -1,0 +1,807 @@
+[
+  {
+    "id": 16,
+    "respuestaCorrecta": 62,
+    "textoPregunta": "Harry Cane fue el máximo goleador de las eliminatorias europeas con 12 goles junto a otro delantero. Con quien?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 61,
+        "textoRespuesta": "Robert Lewandowski"
+      },
+      {
+        "idRespuesta": 62,
+        "textoRespuesta": "Menphis Depay"
+      },
+      {
+        "idRespuesta": 63,
+        "textoRespuesta": "Cristiano Ronaldo "
+      },
+      {
+        "idRespuesta": 64,
+        "textoRespuesta": "Juan Perez"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "respuestaCorrecta": 51,
+    "textoPregunta": "Cuál es el nombre de la mascota del mundial?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 49,
+        "textoRespuesta": "Al Rihla"
+      },
+      {
+        "idRespuesta": 50,
+        "textoRespuesta": "Kura"
+      },
+      {
+        "idRespuesta": 51,
+        "textoRespuesta": "La´eeb"
+      },
+      {
+        "idRespuesta": 52,
+        "textoRespuesta": "Patoruzu"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "respuestaCorrecta": 59,
+    "textoPregunta": "Cuántas naciones europeas jugarán el mundial de Qatar?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 57,
+        "textoRespuesta": "11"
+      },
+      {
+        "idRespuesta": 58,
+        "textoRespuesta": "12"
+      },
+      {
+        "idRespuesta": 59,
+        "textoRespuesta": "13"
+      },
+      {
+        "idRespuesta": 60,
+        "textoRespuesta": "5"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "respuestaCorrecta": 43,
+    "textoPregunta": "Qatar se convierte en el país número …. en albergar al Mundial",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 41,
+        "textoRespuesta": "16"
+      },
+      {
+        "idRespuesta": 42,
+        "textoRespuesta": "15"
+      },
+      {
+        "idRespuesta": 43,
+        "textoRespuesta": "18"
+      },
+      {
+        "idRespuesta": 44,
+        "textoRespuesta": "22"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "respuestaCorrecta": 30,
+    "textoPregunta": "Cuándo tuvo lugar la primera copa Mundial de Futbol?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 29,
+        "textoRespuesta": "En 1920"
+      },
+      {
+        "idRespuesta": 30,
+        "textoRespuesta": "En 1930"
+      },
+      {
+        "idRespuesta": 31,
+        "textoRespuesta": "En 1940"
+      },
+      {
+        "idRespuesta": 32,
+        "textoRespuesta": "En 1960"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "respuestaCorrecta": 38,
+    "textoPregunta": "Qué edición será el mundial de Qatar?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 37,
+        "textoRespuesta": "21"
+      },
+      {
+        "idRespuesta": 38,
+        "textoRespuesta": "22"
+      },
+      {
+        "idRespuesta": 39,
+        "textoRespuesta": "23"
+      },
+      {
+        "idRespuesta": 40,
+        "textoRespuesta": "24"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "respuestaCorrecta": 23,
+    "textoPregunta": "Cual de estos rivales de Brasil no se repite respecto del mundial anterior?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 21,
+        "textoRespuesta": "Serbia "
+      },
+      {
+        "idRespuesta": 22,
+        "textoRespuesta": "Suiza"
+      },
+      {
+        "idRespuesta": 23,
+        "textoRespuesta": "Camerún"
+      },
+      {
+        "idRespuesta": 24,
+        "textoRespuesta": "Venezuela"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "respuestaCorrecta": 70,
+    "textoPregunta": "¿Quién es el jugador con más partidos jugados en los mundiales?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 69,
+        "textoRespuesta": "Miroslav Klose (Alemania)"
+      },
+      {
+        "idRespuesta": 70,
+        "textoRespuesta": "Lothar Mattahaus (Alemania)"
+      },
+      {
+        "idRespuesta": 71,
+        "textoRespuesta": "Diego Maradona (Argentina)"
+      },
+      {
+        "idRespuesta": 72,
+        "textoRespuesta": "Paolo Maldini (Italia)"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "respuestaCorrecta": 27,
+    "textoPregunta": "En que instancia podria darse un Argentina - Brasil si los dos pasan como primeros de grupo?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 25,
+        "textoRespuesta": "Octavos"
+      },
+      {
+        "idRespuesta": 26,
+        "textoRespuesta": "Cuartos"
+      },
+      {
+        "idRespuesta": 27,
+        "textoRespuesta": "Semifinales"
+      },
+      {
+        "idRespuesta": 28,
+        "textoRespuesta": "Final"
+      }
+    ]
+  },
+   {
+    "id": 9,
+    "respuestaCorrecta": 33,
+    "textoPregunta": "Quién es el máximo goleador de la historia de la copa Mundial de Futbol?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 33,
+        "textoRespuesta": "Miroslav Klose"
+      },
+      {
+        "idRespuesta": 34,
+        "textoRespuesta": "Ronaldo Nazario "
+      },
+      {
+        "idRespuesta": 35,
+        "textoRespuesta": "Gerd Muller"
+      },
+      {
+        "idRespuesta": 36,
+        "textoRespuesta": "Pelé"
+      }
+    ]
+  },
+   {
+    "id": 3,
+    "respuestaCorrecta": 10,
+    "textoPregunta": "En que grupo está Francia, el campeon defensor?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 9,
+        "textoRespuesta": "Grupo B"
+      },
+      {
+        "idRespuesta": 10,
+        "textoRespuesta": "Grupo D"
+      },
+      {
+        "idRespuesta": 11,
+        "textoRespuesta": "Grupo E"
+      },
+      {
+        "idRespuesta": 12,
+        "textoRespuesta": "Grupo F"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "respuestaCorrecta": 54,
+    "textoPregunta": "Cúal es la capital de Qatar?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 53,
+        "textoRespuesta": "Al Rayyan"
+      },
+      {
+        "idRespuesta": 54,
+        "textoRespuesta": "Doha"
+      },
+      {
+        "idRespuesta": 55,
+        "textoRespuesta": "Lusail"
+      },
+      {
+        "idRespuesta": 56,
+        "textoRespuesta": "Buenos Aires"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "respuestaCorrecta": 13,
+    "textoPregunta": "Ante que rival debuta la Scaloneta en Qatar 2022?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 13,
+        "textoRespuesta": "Arabia Saudita"
+      },
+      {
+        "idRespuesta": 14,
+        "textoRespuesta": "Polonia"
+      },
+      {
+        "idRespuesta": 15,
+        "textoRespuesta": "México"
+      },
+      {
+        "idRespuesta": 16,
+        "textoRespuesta": "Chile"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "respuestaCorrecta": 2,
+    "textoPregunta": "Cúal de estos rivales no jugará con Argentina en este mundial?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 1,
+        "textoRespuesta": "Arabia Saudita"
+      },
+      {
+        "idRespuesta": 2,
+        "textoRespuesta": "Nigeria"
+      },
+      {
+        "idRespuesta": 3,
+        "textoRespuesta": "Polonia"
+      },
+      {
+        "idRespuesta": 4,
+        "textoRespuesta": "México"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "respuestaCorrecta": 7,
+    "textoPregunta": "Cuándo es la final y dónde?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 5,
+        "textoRespuesta": "16/12 en Doha"
+      },
+      {
+        "idRespuesta": 6,
+        "textoRespuesta": "18/12 en Doha"
+      },
+      {
+        "idRespuesta": 7,
+        "textoRespuesta": "18/12 en Lusail "
+      },
+      {
+        "idRespuesta": 8,
+        "textoRespuesta": "19/12 en Lusail"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "respuestaCorrecta": 18,
+    "textoPregunta": "Cuál de estos árbitros argentinos estará en el mundial?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 17,
+        "textoRespuesta": "Pitana"
+      },
+      {
+        "idRespuesta": 18,
+        "textoRespuesta": "Rapallini"
+      },
+      {
+        "idRespuesta": 19,
+        "textoRespuesta": "Loustau"
+      },
+      {
+        "idRespuesta": 20,
+        "textoRespuesta": "Fernandez"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "respuestaCorrecta": 82,
+    "textoPregunta": "¿Contra quién jugó la final Argentina en el primer mundial del mundo ?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 81,
+        "textoRespuesta": "Brasil"
+      },
+      {
+        "idRespuesta": 82,
+        "textoRespuesta": "Uruguay"
+      },
+      {
+        "idRespuesta": 83,
+        "textoRespuesta": "Alemania"
+      },
+      {
+        "idRespuesta": 84,
+        "textoRespuesta": "Italia"
+      }
+    ]
+  },
+   {
+    "id": 12,
+    "respuestaCorrecta": 8,
+    "textoPregunta": "Cuántos estadios habrá en el mundial de Qatar",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 45,
+        "textoRespuesta": "8"
+      },
+      {
+        "idRespuesta": 46,
+        "textoRespuesta": "9"
+      },
+      {
+        "idRespuesta": 47,
+        "textoRespuesta": "10"
+      },
+      {
+        "idRespuesta": 48,
+        "textoRespuesta": "5"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "respuestaCorrecta": 79,
+    "textoPregunta": "¿Cuál es el país que realizó la mayor goleada en un mundial?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 77,
+        "textoRespuesta": "Uruguay contra Bolivia en Brasil 1950"
+      },
+      {
+        "idRespuesta": 78,
+        "textoRespuesta": "Alemania contra Brasil en Brasil 2014"
+      },
+      {
+        "idRespuesta": 79,
+        "textoRespuesta": "Hungría contra El Salvador en España 1982"
+      },
+      {
+        "idRespuesta": 80,
+        "textoRespuesta": "Brasil contra Suecia en Brasil 1950"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "respuestaCorrecta": 65,
+    "textoPregunta": "Gales venció a Ucrania en el repechaje mundialista y logró clasificar. Cuándo  fue la última vez que Gales jugó un mundial ?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 65,
+        "textoRespuesta": "1958"
+      },
+      {
+        "idRespuesta": 66,
+        "textoRespuesta": "1974"
+      },
+      {
+        "idRespuesta": 67,
+        "textoRespuesta": "1986"
+      },
+      {
+        "idRespuesta": 68,
+        "textoRespuesta": "1970"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "respuestaCorrecta": 75,
+    "textoPregunta": "¿Quién es el jugador que más goles acumulados tiene en los mundiales?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 73,
+        "textoRespuesta": "Pelé (Brasil)"
+      },
+      {
+        "idRespuesta": 74,
+        "textoRespuesta": "Jurgen Klinsmann (Alemania)"
+      },
+      {
+        "idRespuesta": 75,
+        "textoRespuesta": "Miroslav Klose (Alemania)"
+      },
+      {
+        "idRespuesta": 76,
+        "textoRespuesta": "Ronaldo (Brasil)"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "respuestaCorrecta": 203,
+    "textoPregunta": "¿Cómo se llamó la mascota de la Copa Mundial de 1982 en España?",
+    "respuestaPorId": [
+      {
+        "idRespuesta":200,
+        "textoRespuesta": "Juanito"
+      },
+      {
+        "idRespuesta":201 ,
+        "textoRespuesta": "Fuleco"
+      },
+      {
+        "idRespuesta":202 ,
+        "textoRespuesta": "Pique"
+      },
+      {
+        "idRespuesta":203 ,
+        "textoRespuesta": "Naranjito"
+      }
+    ]
+  },
+  {
+    "id":101 ,
+    "respuestaCorrecta": 206,
+    "textoPregunta": "En el Mundial de México en 1986, el argentino Diego Maradona anotó un gol con la mano. ¿Contra qué equipo marcó ese famoso tanto?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 204 ,
+        "textoRespuesta": "Italia"
+      },
+      {
+        "idRespuesta": 205,
+        "textoRespuesta": "Alemania"
+      },
+      {
+        "idRespuesta": 206,
+        "textoRespuesta": "Inglaterra"
+      },
+      {
+        "idRespuesta": 207,
+        "textoRespuesta": "Brasil"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "respuestaCorrecta": 210,
+    "textoPregunta": "El goleador del primer Mundial de fútbol, disputado en 1930 en Uruguay, fue…",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 208,
+        "textoRespuesta": "Bigode (Brasil)"
+      },
+      {
+        "idRespuesta": 209,
+        "textoRespuesta": "Alcides Edgardo Ghiggia (Uruguay)"
+      },
+      {
+        "idRespuesta": 210,
+        "textoRespuesta": "Guillermo Stábile (Argentina)"
+      },
+      {
+        "idRespuesta": 211,
+        "textoRespuesta": "Obdulio Varela (Uruguay)"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "respuestaCorrecta": 215 ,
+    "textoPregunta": "¿Cómo se le llamó a la famosa victoria de Uruguay sobre Brasil en la final del torneo mundialista de 1950, cuando los charrúas obtuvieron su segundo título mundial?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 212 ,
+        "textoRespuesta": "El triunfo del siglo"
+      },
+      {
+        "idRespuesta":213 ,
+        "textoRespuesta": "El chutazo"
+      },
+      {
+        "idRespuesta": 214,
+        "textoRespuesta": "El Matabrasileirao"
+      },
+      {
+        "idRespuesta": 215,
+        "textoRespuesta": "El Maracanazo"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "respuestaCorrecta": 217,
+    "textoPregunta": "México organizó dos veces la Copa Mundial —en 1970 y 1986— pero la segunda vez no fue elegido como primera opción de país sede por parte de la FIFA. ¿Sabes qué país tenía que organizar el Mundial de 1986 y tuvo que renunciar?",
+    "respuestaPorId": [
+      {
+        "idRespuesta":216 ,
+        "textoRespuesta": "Argentina"
+      },
+      {
+        "idRespuesta": 217,
+        "textoRespuesta": "Colombia"
+      },
+      {
+        "idRespuesta": 218,
+        "textoRespuesta": "Brasil"
+      },
+      {
+        "idRespuesta": 219,
+        "textoRespuesta": "Uruguay"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "respuestaCorrecta": 223 ,
+    "textoPregunta": "¿Cuál es el jugador latino que, junto al alemán Lothar Matthaeus, tiene más participaciones en este torneo?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 220,
+        "textoRespuesta": "Pele"
+      },
+      {
+        "idRespuesta": 221,
+        "textoRespuesta": "Hugo Sanchez (Mexico)"
+      },
+      {
+        "idRespuesta": 222,
+        "textoRespuesta": "Javier Zanetti (Argentina)"
+      },
+      {
+        "idRespuesta": 223,
+        "textoRespuesta": "Antonio Carbajal (Mexico)"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "respuestaCorrecta": 226,
+    "textoPregunta": "¿Dónde se disputó la Copa Mundial de 1998?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 224,
+        "textoRespuesta": "Italia"
+      },
+      {
+        "idRespuesta": 225,
+        "textoRespuesta": "Estados Unidos"
+      },
+      {
+        "idRespuesta": 226,
+        "textoRespuesta": "Francia"
+      },
+      {
+        "idRespuesta": 227,
+        "textoRespuesta": "Alemania"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "respuestaCorrecta": 229,
+    "textoPregunta": "Un jugador colombiano fue asesinado al regresar a su país por haber anotado un autogol ante Estados Unidos en el Mundial de 1994. ¿Recuerdas cómo se llamaba?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 228,
+        "textoRespuesta": "Francisco Maturana"
+      },
+      {
+        "idRespuesta": 229,
+        "textoRespuesta": "Andres Escobar"
+      },
+      {
+        "idRespuesta": 230,
+        "textoRespuesta": "Carlos Valderrama"
+      },
+      {
+        "idRespuesta": 231,
+        "textoRespuesta": "Rene Higuita"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "respuestaCorrecta": 234,
+    "textoPregunta": "La selección de fútbol de Cuba participó en una Copa del Mundo. ¿Sabes en qué año fue?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 232,
+        "textoRespuesta": "Uruguay 1930"
+      },
+      {
+        "idRespuesta": 233,
+        "textoRespuesta": "Suiza 1954"
+      },
+      {
+        "idRespuesta": 234,
+        "textoRespuesta": "Francia 1938"
+      },
+      {
+        "idRespuesta": 235,
+        "textoRespuesta": "Mexico 1970"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "respuestaCorrecta": 236,
+    "textoPregunta": "¿Quién fue el jugador que marcó el gol que le dio el triunfo a España en la final de la Copa del Mundo del 2010 en Sudáfrica?",
+    "respuestaPorId": [
+      {
+        "idRespuesta":236 ,
+        "textoRespuesta": "Andres Iniesta"
+      },
+      {
+        "idRespuesta": 237,
+        "textoRespuesta": "Raul Gonzalez"
+      },
+      {
+        "idRespuesta": 238,
+        "textoRespuesta": "David Villa"
+      },
+      {
+        "idRespuesta": 239,
+        "textoRespuesta": "Sergio Ramos"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "respuestaCorrecta": 242,
+    "textoPregunta": "¿Cuál es la selección que más finales de la Copa Mundial ha disputado?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 240,
+        "textoRespuesta": "Brasil"
+      },
+      {
+        "idRespuesta": 241,
+        "textoRespuesta": "Italia"
+      },
+      {
+        "idRespuesta": 242,
+        "textoRespuesta": "Alemania"
+      },
+      {
+        "idRespuesta": 243,
+        "textoRespuesta": "Inglaterra"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "respuestaCorrecta": 245,
+    "textoPregunta": "¿Quién fue el jugador más valioso o Balón de Oro del Mundial de Brasil 2014?",
+    "respuestaPorId": [
+      {
+        "idRespuesta":244 ,
+        "textoRespuesta": "James Rodriguez (Colombia)"
+      },
+      {
+        "idRespuesta": 245,
+        "textoRespuesta": "Lionel Messi (Argentina)"
+      },
+      {
+        "idRespuesta": 246,
+        "textoRespuesta": "Neymar Jr. (Brasil)"
+      },
+      {
+        "idRespuesta": 247,
+        "textoRespuesta": "Toni Kross (Alemania)"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "respuestaCorrecta": 251,
+    "textoPregunta": "¿Quién es el único jugador en hacer “hat tricks” (tres goles en un partido) en dos ediciones consecutivas del Mundial?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 248,
+        "textoRespuesta": "Pele (Brasil)"
+      },
+      {
+        "idRespuesta": 249,
+        "textoRespuesta": "Cristiano Ronaldo (Portugal)"
+      },
+      {
+        "idRespuesta": 250,
+        "textoRespuesta": "Miroslav Klose (Alemania"
+      },
+      {
+        "idRespuesta": 251,
+        "textoRespuesta": "Gabriel Batistuta (Argentina)"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "respuestaCorrecta": 255,
+    "textoPregunta": "¿Qué animal fue el escogido para ilustrar la mascota del Mundial de Rusia?",
+    "respuestaPorId": [
+      {
+        "idRespuesta": 252,
+        "textoRespuesta": "Un Perro"
+      },
+      {
+        "idRespuesta": 253,
+        "textoRespuesta": "Un Oso"
+      },
+      {
+        "idRespuesta": 254,
+        "textoRespuesta": "Un Gato"
+      },
+      {
+        "idRespuesta": 255,
+        "textoRespuesta": "Un Lobo"
+      }
+    ]
+  }
+]

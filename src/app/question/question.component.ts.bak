@@ -1,0 +1,115 @@
+import { Component, OnInit } from '@angular/core';
+import { interval } from 'rxjs';
+import { QuestionService } from '../service/question.service';
+
+@Component({
+  selector: 'app-question',
+  templateUrl: './question.component.html',
+  styleUrls: ['./question.component.scss']
+})
+
+export class QuestionComponent implements OnInit {
+  public name: string = ""; //initial name of the user
+  public questionList: any = []; //initial question list is an empty array
+  public currentQuestion: number = 0; //the question number, an array index
+  public points: number = 0;
+  public segundos: number = 5; // seconds that we give to answer a question
+  public preguntaNumero: number = 0;  // save the number of quest
+  counter = this.segundos;
+  correctAnswer: number = 0;
+  inCorrectAnswer: number = 0;
+  interval$: any;
+  progress: string = "0"; // for the progress bar
+  isQuizCompleted: boolean = false;
+  constructor(private questionService: QuestionService) { }
+
+  ngOnInit(): void {
+    this.name = localStorage.getItem("name")!;
+    this.getAllQuestions(); // we get all the questions
+    this.startCounter(); // we need to start the counter, if not we get an error 
+  }
+
+  getAllQuestions() {
+    this.questionService.getQuestionJson()
+      .subscribe(res => {
+        this.questionList = res.questions;
+      })
+  }
+
+  nextQuestion() {
+    this.currentQuestion++;
+    this.resetCounter();
+  }
+
+  previousQuestion() {
+    this.currentQuestion--;
+    this.resetCounter();
+  }
+
+  answer(currentQno: number, option: any) {
+    if (currentQno === this.questionList.length) {
+      this.isQuizCompleted = true;
+      this.stopCounter();
+      this.interval$.unsubscribe();
+    }
+
+    if (option.correct) {
+      this.points += 10; // sum points
+      this.correctAnswer++; // add one correct answer
+      setTimeout(() => { // the setTimeout add a delay to see the change of the background color of the right and false question
+        this.currentQuestion++; // jump to the next question
+        this.resetCounter();
+        this.getProgressPercent(); // calculate the new progress 
+      }, 1000);
+    } else {
+      this.points -= 10;
+      this.inCorrectAnswer++;
+      setTimeout(() => {
+        this.currentQuestion++;
+        this.resetCounter();
+        this.getProgressPercent();
+      }, 1000);
+    }
+  }
+
+  startCounter() {
+    this.interval$ = interval(1000) // we define an interval of 1 second
+      .subscribe(val => {
+        this.counter--; //each second we decrease the val by one 
+        //if (this.counter === 0  this.questionList.length > this.currentQuestion) {// the counter reached 0 in a question OJO need to ask if it the las question!!!  ERROR
+        if (this.counter === 0) {
+          this.currentQuestion++;
+          this.counter = this.segundos;
+          this.points -= 10;
+        }
+    
+      });
+    setTimeout(() => {
+      this.interval$.unsubscribe();// after 10 minutes unsubscribe to this interval and we stop the counter
+    }, 6000000);
+  }
+
+  stopCounter() {
+    this.interval$.unsubscribe(); //unsubscribe the interval 
+    this.counter = 0; // reset the counter to 0
+  }
+
+  resetCounter() {
+    this.stopCounter(); // stop
+    this.counter = this.segundos; // put counter on segundos 
+    this.startCounter(); // start again
+  }
+
+  resetQuiz() {
+    this.resetCounter();
+    this.getAllQuestions();
+    this.points = 0;
+    this.currentQuestion = 0;
+    this.progress = "0";
+  }
+
+  getProgressPercent() { // calculate the progress as the ratio between the total number of questions and the questions we are now. 
+    this.progress = ((this.currentQuestion / this.questionList.length) * 100).toString();
+    return this.progress;
+  }
+}
